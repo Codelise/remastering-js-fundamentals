@@ -1,0 +1,52 @@
+One-Time Setup (on both Laptop & PC)
+1. Configure Git Identity
+git config --global user.name "Codelise"
+git config --global user.email "your_email@example.com"
+
+2. Make Sure Remote URL is Correct
+Inside your repo folder:
+git remote -v
+If it shows something wrong (like Aeryun), reset it:
+git remote set-url origin https://github.com/Codelise/remastering-js-fundamentals.git
+
+3. Check/Reset Credentials (Windows)
+If wrong credentials are cached:
+git credential-manager erase
+Enter:
+protocol=https
+host=github.com
+(then hit Enter twice)
+Next push will ask you to log in with Codelise.
+
+🚀 Everyday Commands (Laptop ↔ PC)
+Clone the Repo (first time on a new machine)
+git clone https://github.com/Codelise/remastering-js-fundamentals.git
+cd remastering-js-fundamentals
+
+Workflow for Adding/Updating Code
+1. Make sure you’re up-to-date before working:
+git pull origin main
+
+2. Stage your changes:
+git add .
+
+3. Commit with a message:
+git commit -m "Your commit message here"
+
+4. Push to GitHub:
+git push origin main
+
+Switch Machines (Laptop → PC or PC → Laptop)
+On the second machine:
+cd remastering-js-fundamentals
+git pull origin main
+
+⚡ Quick Full Push Workflow (one liner)
+git add . → stage everything
+git commit -m → commit
+git pull origin main → grab latest from GitHub (avoid conflicts)
+git push origin main → push your changes
+
+After coding, just run:
+git add . && git commit -m "update" && git pull origin main && git push origin main
+
