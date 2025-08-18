@@ -1,0 +1,92 @@
+Day-by-Day Plan
+
+Day 1 — Variables & Data Types
+Goal: Learn let, const, var, and store strings, numbers, booleans.
+    Challenge 1: Store your name, age, and whether you like coffee. Print them.
+    Challenge 2: Change your age variable and print the new value.
+    Challenge 3: Use typeof to check the type of each variable.
+
+Day 2 — Operators
+Goal: Learn math, comparison, and logical operators.
+    Challenge 1: Add, subtract, multiply, and divide two numbers.
+    Challenge 2: Check if your age is greater than 18.
+    Challenge 3: Check if a number is both positive and even
+
+Day 3 — Strings
+Goal: Learn concatenation, template literals, string methods.
+    Challenge 1: Create a greeting like Hello, John! using template literals.
+    Challenge 2: Convert a string to uppercase.
+    Challenge 3: Count the number of characters in your name.
+
+Day 4 — Conditionals
+Goal: Use if, else if, else, and switch.
+    Challenge 1: Check if a number is positive, negative, or zero.
+    Challenge 2: Ask for a grade (A, B, C, etc.) and print a message with switch.
+    Challenge 3: Check if a number is divisible by both 3 and 5.
+
+Day 5 — Loops (for, while)
+Goal: Repeat actions using loops.
+    Challenge 1: Print numbers from 1 to 10.
+    Challenge 2: Print even numbers from 2 to 20.
+    Challenge 3: Count down from 10 to 1.
+
+Day 6 — Arrays
+Goal: Store and access lists of data.
+    Challenge 1: Store 5 favorite foods in an array and print them.
+    Challenge 2: Add an item to the array.
+    Challenge 3: Remove the last item from the array.
+
+Day 7 — Array Methods
+Goal: Use .push(), .pop(), .map(), .filter(), .reduce().
+    Challenge 1: Use .map() to make an array of numbers doubled.
+    Challenge 2: Use .filter() to keep only numbers greater than 10.
+    Challenge 3: Use .reduce() to sum all numbers in an array.
+
+Day 8 — Objects
+Goal: Store data in key-value pairs.
+    Challenge 1: Create an object for yourself (name, age, hobbies).
+    Challenge 2: Change a value in the object.
+    Challenge 3: Add a new property to the object.
+
+Day 9 — Functions
+Goal: Write reusable code.
+    Challenge 1: Write a function that returns the square of a number.
+    Challenge 2: Write a function that greets a person by name.
+    Challenge 3: Write a function that takes two numbers and returns their sum.
+
+Day 10 — Arrow Functions & Parameters
+Goal: Write modern JavaScript functions.
+    Challenge 1: Rewrite yesterday’s functions as arrow functions.
+    Challenge 2: Write a function with a default parameter value.
+    Challenge 3: Write a function that takes an array and returns the first item.
+
+Day 11 — DOM Basics
+Goal: Change HTML with JavaScript.
+    Challenge 1: Select an element by ID and change its text.
+    Challenge 2: Change the background color of the page.
+    Challenge 3: Create a button that changes text when clicked.
+
+Day 12 — Events
+Goal: Make interactive pages.
+    Challenge 1: Create a button that shows an alert when clicked.
+    Challenge 2: Show a message when the user types in an input.
+    Challenge 3: Change an image when the mouse hovers over it.
+
+Day 13 — localStorage
+Goal: Save data in the browser.
+    Challenge 1: Store your name in localStorage.
+    Challenge 2: Retrieve and print your stored name.
+    Challenge 3: Save a number, refresh the page, and still see it.
+
+Day 14 — Mini Project
+Goal: Combine everything.
+Build: A “Favorite Quotes” app
+Input for quote text
+Button to add the quote to a list
+Store quotes in localStorage so they stay after refresh
+Display all saved quotes
+
+Extra Advice
+At the end of each day, write down one thing you struggled with and how you solved it — this makes it stick.
+If you get stuck, don’t ask AI for the full answer. Instead, ask: “I tried this code but it’s not working. Can you explain what’s wrong?”
+Keep all your files in one folder — it’s proof of your progress.
